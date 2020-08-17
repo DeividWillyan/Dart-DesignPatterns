@@ -5,7 +5,7 @@ This repository contains examples of the design patterns found in GOF and writte
 # Creational
  - [x] Abstract Factory
  - [x] Factory Method
- - [ ] Builder
+ - [x] Builder
  - [ ] Prototype
  - [ ] Singleton
 
