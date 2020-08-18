@@ -6,7 +6,7 @@ This repository contains examples of the design patterns found in GOF and writte
  - [x] Abstract Factory
  - [x] Factory Method
  - [x] Builder
- - [ ] Prototype
+ - [x] Prototype
  - [ ] Singleton
 
 # Structural

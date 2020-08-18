@@ -1,6 +1,7 @@
 import 'package:design_patterns/Creational/Abstract_Factory/abstract_factory.dart';
 import 'package:design_patterns/Creational/Builder/builder.dart';
 import 'package:design_patterns/Creational/Factory_Mathod/factory_method.dart';
+import 'package:design_patterns/Creational/Prototype/prototype.dart';
 
 void main(List<String> arguments) {
   print('--- Inicialized Abstract Factory example');
@@ -17,4 +18,9 @@ void main(List<String> arguments) {
   var builder = Builder();
   builder();
   print('--- Finalized Builder example\n');
+
+  print('--- Inicialized Prototype example');
+  var prototype = Prototype();
+  prototype();
+  print('--- Finalized Prototype example\n');
 }
