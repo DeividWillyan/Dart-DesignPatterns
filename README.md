@@ -7,7 +7,7 @@ This repository contains examples of the design patterns found in GOF and writte
  - [x] Factory Method
  - [x] Builder
  - [x] Prototype
- - [ ] Singleton
+ - [x] Singleton
 
 # Structural
  - [ ] Adapter
