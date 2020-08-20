@@ -10,7 +10,7 @@ This repository contains examples of the design patterns found in GOF and writte
  - [x] Singleton
 
 # Structural
- - [ ] Adapter
+ - [x] Adapter
  - [ ] Bridge
  - [ ] Composite
  - [ ] Decorator

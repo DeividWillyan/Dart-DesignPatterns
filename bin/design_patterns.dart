@@ -3,6 +3,7 @@ import 'package:design_patterns/Creational/Builder/builder.dart';
 import 'package:design_patterns/Creational/Factory_Mathod/factory_method.dart';
 import 'package:design_patterns/Creational/Prototype/prototype.dart';
 import 'package:design_patterns/Creational/Singleton/singleton.dart';
+import 'package:design_patterns/Structural/Adpter/adpter.dart';
 
 void main(List<String> arguments) {
   print('--- Inicialized Abstract Factory example');
@@ -29,4 +30,9 @@ void main(List<String> arguments) {
   var singleton = Singleton();
   singleton();
   print('--- Finalized Singleton example\n');
+
+  print('--- Inicialized Adpter example');
+  var adpter = Adpter();
+  adpter();
+  print('--- Finalized Adpter example\n');
 }
