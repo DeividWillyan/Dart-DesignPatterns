@@ -4,6 +4,7 @@ import 'package:design_patterns/Creational/Factory_Mathod/factory_method.dart';
 import 'package:design_patterns/Creational/Prototype/prototype.dart';
 import 'package:design_patterns/Creational/Singleton/singleton.dart';
 import 'package:design_patterns/Structural/Adpter/adpter.dart';
+import 'package:design_patterns/Structural/Bridge/bridge.dart';
 
 void main(List<String> arguments) {
   print('--- Inicialized Abstract Factory example');
@@ -35,4 +36,9 @@ void main(List<String> arguments) {
   var adpter = Adpter();
   adpter();
   print('--- Finalized Adpter example\n');
+
+  print('--- Inicialized Bridge example');
+  var bridge = Bridge();
+  bridge();
+  print('--- Finalized Bridge example\n');
 }

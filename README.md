@@ -11,7 +11,7 @@ This repository contains examples of the design patterns found in GOF and writte
 
 # Structural
  - [x] Adapter
- - [ ] Bridge
+ - [x] Bridge
  - [ ] Composite
  - [ ] Decorator
  - [ ] Facade
