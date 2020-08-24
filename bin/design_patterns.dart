@@ -5,6 +5,7 @@ import 'package:design_patterns/Creational/Prototype/prototype.dart';
 import 'package:design_patterns/Creational/Singleton/singleton.dart';
 import 'package:design_patterns/Structural/Adpter/adpter.dart';
 import 'package:design_patterns/Structural/Bridge/bridge.dart';
+import 'package:design_patterns/Structural/Composite/composite.dart';
 
 void main(List<String> arguments) {
   print('--- Inicialized Abstract Factory example');
@@ -41,4 +42,9 @@ void main(List<String> arguments) {
   var bridge = Bridge();
   bridge();
   print('--- Finalized Bridge example\n');
+
+  print('--- Inicialized Composite example');
+  var composite = Composite();
+  composite();
+  print('--- Finalized Composite example\n');
 }
