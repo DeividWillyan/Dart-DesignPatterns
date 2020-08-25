@@ -13,7 +13,7 @@ This repository contains examples of the design patterns found in GOF and writte
  - [x] Adapter
  - [x] Bridge
  - [x] Composite
- - [ ] Decorator
+ - [x] Decorator
  - [ ] Facade
  - [ ] Flyweight
  - [ ] Proxy
