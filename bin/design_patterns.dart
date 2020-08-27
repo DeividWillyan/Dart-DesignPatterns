@@ -8,6 +8,7 @@ import 'package:design_patterns/Structural/Bridge/bridge.dart';
 import 'package:design_patterns/Structural/Composite/composite.dart';
 import 'package:design_patterns/Structural/Decorator/decorator.dart';
 import 'package:design_patterns/Structural/Facade/facade.dart';
+import 'package:design_patterns/Structural/Flyweight/flyweight.dart';
 
 void main(List<String> arguments) {
   print('--- Inicialized Abstract Factory example');
@@ -59,4 +60,9 @@ void main(List<String> arguments) {
   var facade = Facade();
   facade();
   print('--- Finalized Facade example\n');
+
+  print('--- Inicialized Flyweight example');
+  var flyweight = Flyweight();
+  flyweight();
+  print('--- Finalized Flyweight example\n');
 }
