@@ -16,7 +16,7 @@ This repository contains examples of the design patterns found in GOF and writte
  - [x] Decorator
  - [x] Facade
  - [x] Flyweight
- - [ ] Proxy
+ - [x] Proxy
  
 # Behavioral
  - [ ] Chain of Responsibility

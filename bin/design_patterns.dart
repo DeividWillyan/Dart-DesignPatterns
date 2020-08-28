@@ -9,6 +9,7 @@ import 'package:design_patterns/Structural/Composite/composite.dart';
 import 'package:design_patterns/Structural/Decorator/decorator.dart';
 import 'package:design_patterns/Structural/Facade/facade.dart';
 import 'package:design_patterns/Structural/Flyweight/flyweight.dart';
+import 'package:design_patterns/Structural/Proxy/proxy.dart';
 
 void main(List<String> arguments) {
   print('--- Inicialized Abstract Factory example');
@@ -65,4 +66,9 @@ void main(List<String> arguments) {
   var flyweight = Flyweight();
   flyweight();
   print('--- Finalized Flyweight example\n');
+
+  print('--- Inicialized Proxy example');
+  var proxy = Proxy();
+  proxy();
+  print('--- Finalized Proxy example\n');
 }
