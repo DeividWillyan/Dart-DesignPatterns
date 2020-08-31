@@ -19,7 +19,7 @@ This repository contains examples of the design patterns found in GOF and writte
  - [x] Proxy
  
 # Behavioral
- - [ ] Chain of Responsibility
+ - [x] Chain of Responsibility
  - [ ] Command
  - [ ] Iterator
  - [ ] Mediator
