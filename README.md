@@ -21,7 +21,7 @@ This repository contains examples of the design patterns found in GOF and writte
 # Behavioral
  - [x] Chain of Responsibility
  - [x] Command
- - [ ] Iterator
+ - [x] Iterator
  - [ ] Mediator
  - [ ] Memento
  - [ ] Observer

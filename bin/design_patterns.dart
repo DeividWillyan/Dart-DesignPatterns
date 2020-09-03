@@ -1,5 +1,6 @@
 import 'package:design_patterns/Behivoral/Chain_Of_Responsibility/chain_of_responsability.dart';
 import 'package:design_patterns/Behivoral/Command/command.dart';
+import 'package:design_patterns/Behivoral/Iterator/iterator.dart';
 import 'package:design_patterns/Creational/Abstract_Factory/abstract_factory.dart';
 import 'package:design_patterns/Creational/Builder/builder.dart';
 import 'package:design_patterns/Creational/Factory_Mathod/factory_method.dart';
@@ -83,4 +84,9 @@ void main(List<String> arguments) {
   var command = Command();
   command();
   print('--- Finalized Command example\n');
+
+  print('--- Inicialized Iterator example');
+  var iterator = Iterator();
+  iterator();
+  print('--- Finalized Iterator example\n');
 }
