@@ -2,6 +2,7 @@ import 'package:design_patterns/Behivoral/Chain_Of_Responsibility/chain_of_respo
 import 'package:design_patterns/Behivoral/Command/command.dart';
 import 'package:design_patterns/Behivoral/Iterator/iterator.dart';
 import 'package:design_patterns/Behivoral/Mediator/mediator.dart';
+import 'package:design_patterns/Behivoral/Memento/memento.dart';
 import 'package:design_patterns/Creational/Abstract_Factory/abstract_factory.dart';
 import 'package:design_patterns/Creational/Builder/builder.dart';
 import 'package:design_patterns/Creational/Factory_Mathod/factory_method.dart';
@@ -95,4 +96,9 @@ void main(List<String> arguments) {
   var mediator = Mediator();
   mediator();
   print('--- Finalized Mediator example\n');
+
+  print('--- Inicialized Memento example');
+  var memento = Memento();
+  memento();
+  print('--- Finalized Memento example\n');
 }

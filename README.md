@@ -23,7 +23,7 @@ This repository contains examples of the design patterns found in GOF and writte
  - [x] Command
  - [x] Iterator
  - [x] Mediator
- - [ ] Memento
+ - [x] Memento
  - [ ] Observer
  - [ ] State
  - [ ] Strategy
