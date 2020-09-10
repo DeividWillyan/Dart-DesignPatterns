@@ -24,7 +24,7 @@ This repository contains examples of the design patterns found in GOF and writte
  - [x] Iterator
  - [x] Mediator
  - [x] Memento
- - [ ] Observer
+ - [x] Observer
  - [ ] State
  - [ ] Strategy
  - [ ] Template Method

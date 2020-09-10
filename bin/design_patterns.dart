@@ -3,6 +3,7 @@ import 'package:design_patterns/Behivoral/Command/command.dart';
 import 'package:design_patterns/Behivoral/Iterator/iterator.dart';
 import 'package:design_patterns/Behivoral/Mediator/mediator.dart';
 import 'package:design_patterns/Behivoral/Memento/memento.dart';
+import 'package:design_patterns/Behivoral/Observer/observer.dart';
 import 'package:design_patterns/Creational/Abstract_Factory/abstract_factory.dart';
 import 'package:design_patterns/Creational/Builder/builder.dart';
 import 'package:design_patterns/Creational/Factory_Mathod/factory_method.dart';
@@ -101,4 +102,9 @@ void main(List<String> arguments) {
   var memento = Memento();
   memento();
   print('--- Finalized Memento example\n');
+
+  print('--- Inicialized Observer example');
+  var observer = Observer();
+  observer();
+  print('--- Finalized Observer example\n');
 }
