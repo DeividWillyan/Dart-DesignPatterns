@@ -4,6 +4,7 @@ import 'package:design_patterns/Behivoral/Iterator/iterator.dart';
 import 'package:design_patterns/Behivoral/Mediator/mediator.dart';
 import 'package:design_patterns/Behivoral/Memento/memento.dart';
 import 'package:design_patterns/Behivoral/Observer/observer.dart';
+import 'package:design_patterns/Behivoral/State/state.dart';
 import 'package:design_patterns/Creational/Abstract_Factory/abstract_factory.dart';
 import 'package:design_patterns/Creational/Builder/builder.dart';
 import 'package:design_patterns/Creational/Factory_Mathod/factory_method.dart';
@@ -107,4 +108,9 @@ void main(List<String> arguments) {
   var observer = Observer();
   observer();
   print('--- Finalized Observer example\n');
+
+  print('--- Inicialized State example');
+  var state = State();
+  state();
+  print('--- Finalized State example\n');
 }
