@@ -5,6 +5,7 @@ import 'package:design_patterns/Behivoral/Mediator/mediator.dart';
 import 'package:design_patterns/Behivoral/Memento/memento.dart';
 import 'package:design_patterns/Behivoral/Observer/observer.dart';
 import 'package:design_patterns/Behivoral/State/state.dart';
+import 'package:design_patterns/Behivoral/Strategy/strategy.dart';
 import 'package:design_patterns/Creational/Abstract_Factory/abstract_factory.dart';
 import 'package:design_patterns/Creational/Builder/builder.dart';
 import 'package:design_patterns/Creational/Factory_Mathod/factory_method.dart';
@@ -113,4 +114,9 @@ void main(List<String> arguments) {
   var state = State();
   state();
   print('--- Finalized State example\n');
+
+  print('--- Inicialized Strategy example');
+  var strategy = Strategy();
+  strategy();
+  print('--- Finalized Strategy example\n');
 }
