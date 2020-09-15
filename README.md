@@ -27,7 +27,7 @@ This repository contains examples of the design patterns found in GOF and writte
  - [x] Observer
  - [x] State
  - [x] Strategy
- - [ ] Template Method
+ - [x] Template Method
  - [ ] Visitor
 
 
